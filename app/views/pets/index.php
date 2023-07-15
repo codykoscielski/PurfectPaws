@@ -1,2 +1,1 @@
-<?php
-    echo 'Index for Pets';
+<h1>pets</h1>

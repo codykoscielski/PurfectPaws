@@ -5,6 +5,6 @@
         }
 
         public function index() {
-
+            $this->view('pets/index');
         }
     }
