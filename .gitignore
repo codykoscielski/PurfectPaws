@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+/node_modules
+
+# Ignore .env files as they usually contain sensitive information
+/.env
+
+# Ignore the build output directory
+/public/css/output.css
+
+# Ignore PHP vendor directory
+/vendor
+
+# Ignore system files
+.DS_Store
+Thumbs.db
