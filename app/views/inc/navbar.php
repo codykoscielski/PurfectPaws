@@ -1,5 +1,5 @@
 <nav class="relative px-4 py-5 flex justify-between items-center bg-dusty-teal">
-    <a class="text-3xl font-bold leading-none" href="#">
+    <a class="text-3xl font-bold leading-none" href="<?= URLROOT ?>">
         <img src="<?= URLROOT ?>/images/Logo.svg" alt="Purfect Paws Logo">
     </a>
     <div class="lg:hidden">
@@ -37,7 +37,7 @@
         </li>
         <li><a class="text-[32px] text-white hover:text-gray-500 font-amatic" href="#">Contact</a></li>
     </ul>
-    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-muted-coral hover:bg-gray-100 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign In</a>
+    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-muted-coral hover:bg-gray-100 text-sm text-white font-bold rounded-xl transition duration-200" href="<?= URLROOT ?>/users/login">Sign In</a>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -73,7 +73,7 @@
         </div>
         <div class="mt-auto">
             <div class="pt-6">
-                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold leading-none bg-muted-coral hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
+                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold leading-none bg-muted-coral hover:bg-gray-100 rounded-xl" href="<?= URLROOT ?>/users/login">Sign in</a>
             </div>
             <p class="my-4 text-xs text-center text-white">
                 <span>Copyright © 2021</span>
