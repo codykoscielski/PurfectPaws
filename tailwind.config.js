@@ -19,6 +19,9 @@ module.exports = {
       },
       maxWidth: {
         'section': '850px'
+      },
+      height: {
+        'calc': 'calc(100% - 357px)'
       }
     },
   },
