@@ -17,7 +17,7 @@
                 <p class="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, voluptas.
                 </p>
-                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded">
+                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded transition duration-200">
                     Learn more
                 </button>
             </div>
@@ -31,7 +31,7 @@
                 <p class="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, voluptas.
                 </p>
-                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded">
+                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded transition duration-200">
                     Learn more
                 </button>
             </div>
@@ -45,7 +45,7 @@
                 <p class="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, voluptas.
                 </p>
-                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded">
+                <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded transition duration-200">
                     Learn more
                 </button>
             </div>
