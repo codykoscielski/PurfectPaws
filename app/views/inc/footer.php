@@ -2,7 +2,7 @@
     <div class="flex w-full p-6 mx-auto justify-evenly items-center">
         <div class="flex flex-col">
             <img src="<?= URLROOT ?>/images/vert-logo.svg" alt="vertical logo">
-            <p class="text-soft-cream">123 Address St.<br>SomeCity, PA 14556<br><a href="#">whiskerwhispers@purfectpaws.com</a></p>
+            <p class="text-soft-cream">123 Address St.<br>SomeCity, PA 14556<br><a href="#">whiskerwhispers@purfectpaws.app</a></p>
             <div class="flex">
                 <img src="<?= URLROOT ?>/images/facebook.svg" alt="facebook logo">
                 <img src="<?= URLROOT ?>/images/instagram.svg" alt="facebook logo">
