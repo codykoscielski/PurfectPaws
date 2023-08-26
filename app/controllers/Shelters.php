@@ -5,6 +5,7 @@ class Shelters extends Controller {
 
     public function __construct() {
         $this->petModel = $this->model('Pet');
+        $this->shelterModel = $this->model('Shelter');
     }
 
     public function index(): void {
@@ -31,7 +32,11 @@ class Shelters extends Controller {
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
             //do add a pet
         } else {
-            $this->view('shelters/addRescue');
+            $breeds = $this->shelterModel->getAllBreeds();
+            $data = [
+              'breeds' =>  $breeds
+            ];
+            $this->view('shelters/addRescue', $data);
         }
     }
 

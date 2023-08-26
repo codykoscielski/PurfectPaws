@@ -3,10 +3,10 @@
         <!-- Sidebar -->
         <?php require APPROOT . '/views/shelters/inc/sidebar.php' ?>
         <!-- Main content -->
-        <div class="main-content ml-20 md:ml-64 p-8">
+        <div class="main-content md:ml-64 p-8">
             <!-- Your dashboard content goes here -->
-            <div class="flex items-center justify-between">
-                <h1 class="text-[48px] font-semibold mb-6 text-white">Pets</h1>
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <h1 class="text-[48px] font-semibold mb-6 text-white">Pet Listing</h1>
                 <div class="px-3 mb-6 md:mb-0">
                     <label class="block tracking-widetext-xs font-bold mb-2 text-white" for="grid-first-name">
                         Search
@@ -18,7 +18,7 @@
             <div class="container mx-auto p-4">
                 <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4"">
                     <?php foreach($data['cats'] as $cat) : ?>
-                        <div class="card max-w-sm w-full bg-white rounded-lg overflow-hidden shadow-lg p-3">
+                        <div class="card max-w-sm w-full bg-white rounded-lg overflow-hidden shadow-lg">
                             <div class="flex justify-center">
                                 <img src="<?= $cat->imageURL ?>" alt="Cat Name" class="w-32 h-32 object-cover rounded-full border-2 border-gray-300">
                             </div>
