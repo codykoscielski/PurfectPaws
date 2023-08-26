@@ -4,7 +4,8 @@
 class Shelters extends Controller {
 
     public function __construct() {
-
+        $this->petModel = $this->model('Pet');
+        $this->shelterModel = $this->model('Shelter');
     }
 
     public function index(): void {
@@ -20,14 +21,22 @@ class Shelters extends Controller {
     }
 
     public function pets(): void {
-        $this->view('shelters/pets');
+        $pets = $this->petModel->getAllCats();
+        $data = [
+            'cats' => $pets
+        ];
+        $this->view('shelters/pets', $data);
     }
 
     public function addNewRescue(): void {
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
             //do add a pet
         } else {
-            $this->view('shelters/addRescue');
+            $breeds = $this->shelterModel->getAllBreeds();
+            $data = [
+              'breeds' =>  $breeds
+            ];
+            $this->view('shelters/addRescue', $data);
         }
     }
 

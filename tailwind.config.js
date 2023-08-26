@@ -21,7 +21,7 @@ module.exports = {
         'section': '850px'
       },
       height: {
-        'calc': 'calc(100% - 357px)'
+        'calc': 'calc(100vh - 370px)'
       }
     },
   },

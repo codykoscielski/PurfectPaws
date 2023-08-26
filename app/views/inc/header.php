@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-full bg-white">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/output.css">
     <title><?= SITENAME ?></title>
 </head>
-<body class="h-calc">
+<body class="">
 
 

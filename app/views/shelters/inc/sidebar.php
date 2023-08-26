@@ -10,7 +10,7 @@
 <div id="sidebar" class="bg-dusty-teal text-white w-64 space-y-6 px-4 py-7 fixed h-full transform translate-x-[-100%] md:translate-x-0 transition-transform duration-300 z-40">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <a href="<?= URLROOT ?>/shelters">
-            <img class="mx-auto h-[100px] w-auto" src="<?= URLROOT ?>/images/vert-logo.svg" alt="Purfect Paws Logo">
+            <img class="mx-auto h-[100px] w-auto" src="<?= URLROOT ?>/images/cream-vert-logo.svg" alt="Purfect Paws Logo">
         </a>
     </div>
     <nav>
