@@ -37,7 +37,6 @@
         </li>
         <li><a class="text-[32px] text-white hover:text-gray-500 font-amatic" href="#">Contact</a></li>
     </ul>
-    <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-muted-coral hover:bg-pastel-orange text-sm text-white font-bold rounded-xl transition duration-200" href="<?= URLROOT ?>/users/login">Shelter Login</a>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
