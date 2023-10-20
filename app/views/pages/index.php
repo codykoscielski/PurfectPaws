@@ -11,23 +11,12 @@
     <div class="flex max-w-section mx-auto">
         <div>
             <p>
-                PurfectPaws simplifies the adoption process for animal shelters and potential pet parents. We bring you an intuitive admin dashboard for efficient management and a seamless browsing experience for adoptions.
-            </p>
+                At PurfectPaws, we provide animal shelters with an intuitive admin dashboard for efficient management, while offering future pet parents a seamless browsing experience. Our mission is to simplify the adoption journey, connecting loving families with animals in need.            </p>
             <div>
                 <button class="mt-4 inline-flex items-center bg-muted-coral hover:bg-dusty-teal text-white font-bold py-2 px-4 rounded transition duration-200">Learn More</button>
             </div>
         </div>
         <img src="<?= URLROOT ?>/images/heart.svg" alt="">
-    </div>
-</section>
-<section class="about-us mt-5 container mx-auto px-4">
-    <h2 class="text-[50px] text-dusty-teal font-bold mt-2 mb-0">Who We Are</h2>
-    <div class="flex max-w-section ">
-        <div>
-            <p>
-                At PurfectPaws, we are committed to connecting loving families with animals in need. Our easy-to-use interface and powerful tools make pet adoption effortless for both shelters and future pet parents.
-            </p>
-        </div>
     </div>
 </section>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
