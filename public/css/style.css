@@ -12,12 +12,56 @@
 ****                                         ****
 ************************************************/
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --soft-cream: #FDF7E9;
+    --pastale-oragange: #FFC18A;
+    --muted-coral: #F77B6E;
+    --dusty-teal: #75A8A5;
+    --light-gray: #C0C0C0;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amatic SC', sans-serif;
 }
 
 ul li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--dusty-teal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background-color: var(--dusty-teal);
+    z-index: 1;
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    color: #fff;
 }
