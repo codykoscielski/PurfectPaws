@@ -1,5 +1,5 @@
 <nav>
-    <img src="<?= URLROOT ?>/images/cream-logo.svg" alt="Purfect Paws Logo">
+    <img src="<?= URLROOT ?>/images/cream-Logo.svg" alt="Purfect Paws Logo">
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>

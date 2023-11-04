@@ -7,5 +7,5 @@
     //App root
     define('APPROOT', dirname(__FILE__, 2));
     //URL Root
-    const URLROOT = 'http://purfectpaws';
     const SITENAME = 'PurfectPaws';
+    const URLROOT = 'https://purfectpaws.ddev.site';
