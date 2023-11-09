@@ -80,7 +80,7 @@ body {
 }
 
 /* Main content */
-#mainContent {
+#main-content {
     transition: margin-left .5s; /* Smooth transition for the margin */
     padding: 16px;
     margin-left: 250px; /* Same as sidebar width */
