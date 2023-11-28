@@ -44,45 +44,110 @@ ul li {
 /* 2. Custom Classes */
 
 /* -- Dashboard nav -- */
+/* Base styles (Mobile First) */
 .dashboard-navigation {
+    background-color: var(--dusty-teal);
+    color: white;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: var(--dusty-teal);
-    color: #fff;
-    font-size: 20px;
 }
 
-.dashboard-navigation .nav {
+.logo-container img {
+    width: 100px; /* Adjust as needed */
+}
+
+.mobile-alerts-and-menu {
     display: flex;
-    width: 30%;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-.dashboard-navigation .nav li a {
-    color: #ffffff;
-    font-size: 20px;
+.alert {
+    margin-right: 10px; /* Adjust as needed */
 }
 
-.nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.nav-buttons button {
-    margin: 0 10px;
-    padding: 5px 15px;
-    background-color: var(--pastale-oragange);
-    color: #ffffff;
+.sidebar-toggle {
+    background: none;
     border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 20px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 70px; /* Directly below the nav bar */
+    left: 0;
+    right: 0;
+    background-color: var(--dusty-teal);
+    display: none; /* Hidden by default for mobile */
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.nav li {
+    padding: 10px;
+    border-top: 1px solid var(--soft-cream); /* Visual separation between menu items */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+
+.desktop-buttons {
+    display: none;
+}
+/* Styles for larger screens (Tablet/Desktop) */
+@media (min-width: 768px) {
+
+    .dashboard-navigation {
+        padding: 10px 40px;
+    }
+
+    .nav {
+        all: unset;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        flex-direction: row;
+    }
+
+    .nav li {
+        padding: 0;
+        border-top: none;
+    }
+
+    .mobile-alerts-and-menu,
+    .mobile-logout {
+        display: none; /* Hide mobile-specific elements on desktop */
+    }
+
+    .nav-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 1;
+        order: 3;
+    }
+
+    .desktop-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 5%;
+    }
+}
+
 /*-- End Dashboard Nav --*/
 
 .main-content {

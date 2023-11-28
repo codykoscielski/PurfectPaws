@@ -17,4 +17,8 @@ class Dashboard extends Controller {
     public function adoptions(): void {
         $this->view('dashboard/adoptions');
     }
+
+    public function addrescue(): void {
+        $this->view('dashboard/add-rescue');
+    }
 }
